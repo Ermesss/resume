@@ -41,6 +41,9 @@ h1 {
     font-size: 80px;
     line-height: 70px;
 }
+.hero-text{
+    color: #fff;
+}
 
 h4 {
     font-family: 'Lato', sans-serif;
@@ -61,6 +64,13 @@ h4:before {
     height: 2px;
     background: #425BB5;
     top: 9px;
+}
+
+.hero {
+    color:#fff;
+}
+ h4.hero:before{
+    background: #fff;
 }
 
 
@@ -249,13 +259,13 @@ nav li {
 nav li a {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #444;
+    color: #fff;
     font-size: 11px;
     font-weight: bold;
 }
 
 .bg-nav {
-    background: #fff;
+    background: #000;
     border-bottom: 1px solid #f3f3f3
 }
 
@@ -282,7 +292,7 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url(../img/home-bg-2.jpg);
+    background: url(../img/skyelab_coffee_B.jpg);
     background-size: cover;
     height: 100vh;
 }
