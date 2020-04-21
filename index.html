@@ -255,7 +255,7 @@
 
                                 <!-- single work -->
                                 <div class="col-md-4 col-sm-6 user-experience">
-                                    <a id="demo02" href="#demo02" class="portfolio_item">
+                                    <a id="demo02" href="#animatedModal" class="portfolio_item">
                                         <img src="img/portfolio/03.jpg" alt="image" class="img-responsive"/>
                                         <div class="portfolio_item_hover">
                                             <div class="portfolio-border clearfix">
@@ -409,27 +409,28 @@
                     <h3>Email</h3>
                     <p>ermannofissore@gmail.com
                     </p>
+                    
 
                     <h3>Social Network</h3>
 
                     <ul class="social">
                         <li>
-                            <a href="#">
-                                <i class="ion-social-facebook"></i>
+                            <a href="https://github.com/Ermesss">
+                                <i class="ion-social-github"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://twitter.com/sir_oktomat">
                                 <i class="ion-social-twitter"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <i class="ion-social-instagram"></i>
+                            <a href="https://www.linkedin.com/in/ermanno-fissore-a1757b62/">
+                                <i class="ion-social-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://dribbble.com/Ermanno">
                                 <i class="ion-social-dribbble"></i>
                             </a>
                         </li>
@@ -438,40 +439,34 @@
                     <div class="h-50"></div>
                 </div>
                 <div class="col-md-8" data-aos="fade-up">
+
+                 <!-- FORMSPRESS DA STILARE START-->   
                     <form
-                        class="contact-bg"
+                    action="https://formspree.io/mqkdrzwq"
+                    class="contact-bg"
                         id="contact-form"
                         name="contact"
                         method="post"
                         novalidate="novalidate">
-                        <input type="text" name="name" class="form-control" placeholder="Your Name"/>
-                        <input
-                            type="email"
-                            name="email"
-                            class="form-control"
-                            placeholder="Your E-mail"/>
-                        <input
-                            type="text"
-                            name="phone"
-                            class="form-control"
-                            placeholder="Phone Number"/>
-                        <textarea
-                            name="message"
-                            class="form-control"
-                            placeholder="Your Message"
-                            style="height:120px"></textarea>
-                        <button id="submit" type="submit" name="submit" class="btn btn-glance">Send</button>
-                        <div id="success">
-                            <p class="green textcenter">
-                                Your message was sent successfully! I will be in touch as soon as I can.
-                            </p>
-                        </div>
-                        <div id="error">
-                            <p>
-                                Something went wrong, try refreshing and submitting the form again.
-                            </p>
-                        </div>
-                    </form>
+                  
+                    <label>
+                      Your name:
+                      <input type="text" name="name" class="form-control" placeholder="Your Name"/>
+                    </label>
+                    <label>
+                      Your email:
+                      <input type="text" name="_replyto" class="form-control" placeholder="Your Email"/>
+                    </label>
+                    <label>
+                      Your message:
+                      <textarea name="message" class="form-control" placeholder="Your Message"></textarea>
+                    </label>
+                  
+                    <!-- your other form fields go here -->
+                    <button id="submit" type="submit" class="btn btn-glance">Send</button>
+                  </form>
+                  <!-- FORMSPRESS DA STILARE END -->   
+
                 </div>
             </div>
         </div>
@@ -585,6 +580,28 @@
                     </div>
                 </div>
             </div>
+
+            <!--DEMO02-->
+            <div id="PManimatedModal" class="popup-modal">
+                <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name
+                given on the ID -->
+
+                <!--Oddschecker Password Manager-->
+                <div id="btn-close-modal" class="close-PManimatedModal close-popup-modal">
+                    <i class="ion-close-round"></i>
+                </div>
+                <div class="clearfix"></div>
+                <div class="modal-content portfolio-subtitle">
+                    <div class="container">
+                        <div class="portfolio-padding">
+                            <div class="col-md-8 col-md-offset-2">
+                                <h2>Oddschecker Password Manager</h2>
+                                <h5>
+                                    <a target="blank" href="https://www.oddschecker.com">Oddschecker</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
 
                     <!-- jQuery -->
                     <script src="js/jquery.js"></script>
