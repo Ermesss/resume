@@ -637,6 +637,15 @@ a.active {
     line-height: 50px;
 }
 
+.portfolio-subtitle h3 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #337AB7;
+    font-size: 24px;
+    font-weight: semibold;
+}
+
 
 /* contact
 ==================================================*/
