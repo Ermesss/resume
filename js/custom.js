@@ -104,7 +104,11 @@ $(document).ready(function () {
     });
 
     //animatedModal
-    $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
+    for (var i = 0; i < 10; i++) {
+        $("#demo0" + i).animatedModal({
+            modalTarget:"modal-0" + i,
+        });
+    }
 
     // Contact Form 	
 
@@ -160,6 +164,5 @@ $(document).ready(function () {
                 });
             }
         });
-
     });
 });
