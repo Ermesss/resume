@@ -42,7 +42,7 @@ h1 {
     line-height: 70px;
 }
 .hero-text{
-    color: #fff;
+    color: white;
 }
 
 h4 {
@@ -50,7 +50,7 @@ h4 {
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
-    color: #425BB5;
+    color: #DCA48B;
     margin-left: 40px;
     font-weight: 700;
 }
@@ -62,7 +62,7 @@ h4:before {
     content: "";
     display: block;
     height: 2px;
-    background: #425BB5;
+    background: rgb(232, 155, 120);
     top: 9px;
 }
 
@@ -138,7 +138,7 @@ body {
     width: 100%;
     -webkit-animation: rotation 1s linear infinite;
     animation: rotation 1s linear infinite;
-    border: 2px solid #425BB5;
+    border: 2px solid #205871;
     border-top: 2px solid transparent;
     border-radius: 100%
 }
@@ -265,7 +265,7 @@ nav li a {
 }
 
 .bg-nav {
-    background: #000;
+    background: #205871;
     border-bottom: 1px solid #f3f3f3
 }
 
@@ -279,12 +279,12 @@ a:focus {
 }
 
 a:hover {
-    color: #425BB5;
+    color: rgb(232, 155, 120);
     text-decoration: none;
 }
 
 a.active {
-    color: #425BB5;
+    color: rgb(232, 155, 120);
 }
 
 
@@ -292,7 +292,7 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url(../img/skyelab_coffee_B.jpg);
+    background: url(../img/skyelab_coffee_teal_blue.JPG.png);
     background-size: cover;
     height: 100vh;
 }
@@ -321,7 +321,7 @@ a.active {
 
 .about-border {
     position: absolute;
-    border: 10px solid #425BB5;
+    border: 10px solid #205871;
     width: 400px;
     height: 400px;
     top: 40px;
@@ -347,7 +347,7 @@ a.active {
     font-family: 'Lato', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: #425BB5;
+    color: #205871;
     font-size: 16px;
     font-weight: bold
 }
@@ -387,11 +387,11 @@ a.active {
 .timeline-event:hover .timeline-event-icon {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color: #425BB5;
+    background-color: #205871;
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
-    box-shadow: inset 40em 0 0 0 #425BB5;
+    box-shadow: inset 40em 0 0 0 #205871;
 }
 
 .timeline-event-copy {
@@ -426,7 +426,7 @@ a.active {
     transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #425BB5;
+    background-color: #205871;
     outline: 10px solid #f3f3f3;
     display: block;
     margin: 0.5em 0.5em 0.5em -0.5em;
@@ -447,8 +447,8 @@ a.active {
     color: white;
     font-size: 12px;
     font-weight: bold;
-    background-color: black;
-    box-shadow: inset 0 0 0 0em #425BB5;
+    background-color:#444;
+    box-shadow: inset 0 0 0 0em #205871;
     display: inline-block;
     margin-bottom: 1.2em;
     padding: 0.25em 1em 0.2em 1em;
@@ -488,7 +488,7 @@ a.active {
 }
 
 .portfolio .categories-grid .categories ul li a.active {
-    background-color: #425BB5;
+    background-color: #205871;
     padding: 0px 20px;
     color: white;
     text-decoration: none;
@@ -511,7 +511,7 @@ a.active {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #425BB5;
+    background-color: #205871;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
@@ -534,7 +534,7 @@ a.active {
 
 .portfolio_item .portfolio_item_hover .item_info span {
     display: block;
-    color: #fff;
+    color: rgb(232, 155, 120);
     font-size: 18px;
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
@@ -546,9 +546,9 @@ a.active {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #425BB5;
+    background-color: #205871;
     padding: 5px 20px;
-    color: #fff;
+    color: rgb(232, 155, 120);
     margin-top: 10px;
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
@@ -641,7 +641,7 @@ a.active {
     font-family: 'Open Sans', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: #337AB7;
+    color: #205871;
     font-size: 24px;
     font-weight: semibold;
 }
@@ -743,7 +743,7 @@ fieldset {
 }
 
 #submit {
-    background-color: #425BB5;
+    background-color: #205871;
     color: #fff;
     padding: 10px 40px;
     border-radius: 0;
@@ -772,7 +772,7 @@ fieldset {
 }
 
 .social li a:hover {
-    color: #425BB5;
+    color: rgb(232, 155, 120);
 }
 
 
